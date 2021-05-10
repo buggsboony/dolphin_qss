@@ -3,9 +3,11 @@
 #install stuff #name is dolphin (will replace real dolphin)
 what=dolphin 
 extension=.sh
-## Créer le répertoire de configuration
+## Préparation à Créer le répertoire de configuration
 confDir=~/.config/dolphin
 
+#Installer  le nécessaire à l'utilisation de stylsheet
+sudo pacman qt5ct -S  
 
 #peut être extension vide
 echo "Set executable..."
