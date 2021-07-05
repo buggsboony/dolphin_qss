@@ -18,6 +18,7 @@ then
 
     echo "Revert '$dolbak' to '$what'"
     sudo mv $dolbak /usr/bin/dolphin
+    echo "Ok.";
 
 else
     echo "Not removing.. :(";
